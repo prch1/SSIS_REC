@@ -1,0 +1,25 @@
+
+-------------------------------------------------
+
+Criação de tabela
+
+[ROM]..tblTMP_Sucursal
+[ROM]..tblAUTCarteraEmail
+
+--------------------------------------------------
+
+Configurações
+
+  [db_monitor]..[tblControleETL] 
+   descricao LIKE '%AltaCarteira%' 
+
+[ROM]..tblModulo
+[ROM]..tblEMailsQueuePlantillaTipo
+[ROM]..tblEMailsQueuePlantilla
+ORIGEN..tbl_Processo_46
+
+--------------------------------------------------
+sProc_AUT_AltaEmail
+sProc_Aut_CadastroModificarSucursal
+sProc_AUT_Enviar_Email_AltaCartera
+sProc_Inserir_Log_AUT_AltaCarteira
